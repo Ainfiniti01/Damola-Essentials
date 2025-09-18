@@ -7,7 +7,7 @@ import { loadFontsFromTailwindSource } from './plugins/loadFontsFromTailwindSour
 export default defineConfig(({ command }) => ({
   // Keep them available via import.meta.env.NEXT_PUBLIC_*
   envPrefix: 'NEXT_PUBLIC_',
-  base: command === 'build' ? '/Damola/' : '/',  // 👈 switch base depending on mode
+  base: command === 'build' ? '/Damola-Essentials/' : '/',  // 👈 switch base depending on mode
   root: '.',
   build: {
     rollupOptions: {
